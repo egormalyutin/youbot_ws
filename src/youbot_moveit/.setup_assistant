@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: youbot_description
+    relative_path: robots/youbot.urdf.xacro
+  srdf:
+    relative_path: config/youbot.srdf
+  package_settings:
+    author_name: egor
+    author_email: abv1236@yandex.ru
+    generated_timestamp: 1775467779

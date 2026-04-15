@@ -1,0 +1,5 @@
+#!/bin/bash
+
+DIR="$(dirname "$0")"
+export ZENOH_ROUTER_CONFIG_URI="$DIR/zenoh_router_config.json5"
+ros2 run rmw_zenoh_cpp rmw_zenohd
